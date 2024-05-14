@@ -1,12 +1,11 @@
-### K8 pods
-- nodeset:
-    name: pod-fedora-latest
-    nodes:
-      - name: fedora-pod
-        label: pod-fedora-38
-
 - nodeset:
     name: ubuntu-jammy
     nodes:
       - name: ubuntu-jammy
         label: ubuntu-jammy
+
+- nodeset:
+    name: ubuntu-22.04
+    nodes:
+      - name: ubuntu-22.04
+        label: ubuntu-22.04
